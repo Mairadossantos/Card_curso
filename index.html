@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url(https://images3.alphacoders.com/133/1339216.png) no-repeat center center;
+            background-size: cover;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(246, 240, 240, 0.2);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card img {
+            border-radius: 50%;
+            width: 100px; 
+            height: 100px;
+            margin-top: 20px; /* Espaçamento no topo */
+        }
+
+        .card .info {
+            padding: 20px;
+        }
+
+        .card .info h2 {
+            margin: 10px 0;
+        }
+
+        .card .info p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .card .info h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://dk2dv4ezy246u.cloudfront.net/widgets/sLAjoXq3awhs_large.jpg" alt="Imagem do Perfil">
+        <div class="info">
+            <h2>Maíra</h2>
+            <p>15 anos</p>
+            <h3>Motivo de estar fazendo este curso</h3>
+            <p>Porque pretendo trabalhar como programadora, para poder ter uma vida finaceiramente estável</p>
+        </div>
+    </div>
+</body>
+</html>
